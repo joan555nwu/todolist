@@ -4,7 +4,7 @@ $(function(){
   {
     $("ul").prepend("<li>"+taskArray[i]+"</li><button>X</button></br>");
   }
-  
+
   $("#addbutton").click(function(){
     $(".addtask").show();
   });
